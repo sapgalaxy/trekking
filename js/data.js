@@ -107,5 +107,23 @@ const EXPEDITIONS = [
       "images/annapurna-circuit/20221015_000002.jpg"
     ],
     storyFile: "stories/langtang-valley.txt"
+  },
+  {
+    slug: "manaslu-circuit",
+    title: "Manaslu Circuit Trek",
+    region: "Manaslu, Nepal",
+    dateRange: "Sep 8 – Sep 19, 2025",
+    difficulty: "Strenuous",
+    distanceKm: 177,
+    maxAltitudeM: 5106,
+    durationDays: 12,
+    elevationProfile: [18, 28, 40, 55, 65, 80, 95, 70, 50, 35, 20],
+    cover: "images/annapurna-circuit/20221015_000001.jpg",
+    photos: [
+      "images/annapurna-circuit/20221015_000001.jpg",
+      "images/annapurna-circuit/20221015_120009.jpg",
+      "images/annapurna-circuit/20221015_000002.jpg"
+    ],
+    storyFile: "stories/manaslu-circuit.txt"
   }
 ];
