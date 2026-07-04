@@ -125,5 +125,23 @@ const EXPEDITIONS = [
       "images/annapurna-circuit/20221015_000002.jpg"
     ],
     storyFile: "stories/manaslu-circuit.txt"
+  },
+  {
+    slug: "your-next-expedition",
+    title: "Your Next Expedition",
+    region: "Unknown Trails",
+    dateRange: "TBD",
+    difficulty: "Moderate",
+    distanceKm: 120,
+    maxAltitudeM: 4200,
+    durationDays: 10,
+    elevationProfile: [20, 35, 50, 60, 55, 70, 65, 50, 30, 15],
+    cover: "images/your-next-expedition/cover.jpg",
+    photos: [
+      "images/your-next-expedition/1.jpg",
+      "images/your-next-expedition/2.jpg",
+      "images/your-next-expedition/3.jpg"
+    ],
+    storyFile: "stories/your-next-expedition.txt"
   }
 ];
