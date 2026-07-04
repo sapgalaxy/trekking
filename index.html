@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Field Journal — Trekking Expeditions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__mark">Field<span>&nbsp;Journal</span></div>
+    <div class="site-header__meta">A record of every trail walked</div>
+  </header>
+
+  <section class="hero">
+    <div class="topo-bg"></div>
+    <p class="hero__eyebrow">Trekking Expeditions</p>
+    <h1 class="hero__title">Every summit leaves a line on the map.</h1>
+    <p class="hero__sub">A running log of the trails, passes, and peaks covered so far — each one measured in altitude, distance, and the days it took to get there.</p>
+
+    <div class="hero__profile" id="hero-profile"></div>
+
+    <div class="hero__stats">
+      <div class="hero__stat">
+        <span class="hero__stat-value" id="hero-count">0</span>
+        <span class="hero__stat-label">Expeditions</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-value" id="hero-distance">0</span>
+        <span class="hero__stat-label">Distance covered</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-value" id="hero-days">0</span>
+        <span class="hero__stat-label">Days on trail</span>
+      </div>
+      <div class="hero__stat">
+        <span class="hero__stat-value" id="hero-altitude">0</span>
+        <span class="hero__stat-label">Highest point</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="expedition-toolbar">
+    <label class="search-field" for="expedition-search">
+      <span class="search-field__label">Filter expeditions</span>
+      <input id="expedition-search" type="search" placeholder="Try “Nepal”, “high altitude”, or “trek”" autocomplete="off">
+    </label>
+  </div>
+
+  <p class="section-label">Expeditions — click any card to open the full log</p>
+  <div class="expedition-grid" id="expedition-grid"></div>
+
+  <footer class="site-footer">Field Journal — built to run locally, no server required.</footer>
+
+  <div class="detail-overlay" id="detail-overlay"></div>
+  <div class="lightbox" id="lightbox"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
